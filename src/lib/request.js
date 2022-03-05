@@ -1,5 +1,5 @@
 //const URL = "https://rickandmortyapi.com/api/character/"
-//const URL = "https://pokeapi.co/api/v2/generation/"
+const URL = "https://pokeapi.co/api/v2/pokemon/"
 //const URL = "https://swapi.dev/api/people"
 //const URL = "https://swapi.dev/api/films/"
 //const URL = "https://api.sampleapis.com/simpsons/episodes/"
