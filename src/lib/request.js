@@ -1,11 +1,12 @@
 //const URL = "https://rickandmortyapi.com/api/character/"
-const URL = "https://pokeapi.co/api/v2/pokemon/"
-//const URL = "https://swapi.dev/api/people"
+//const URL = "https://pokeapi.co/api/v2/pokemon/"
+const URL = "https://swapi.dev/api/people"
 //const URL = "https://swapi.dev/api/films/"
 //const URL = "https://api.sampleapis.com/simpsons/episodes/"
 //const URL = "https://spapi.dev/api/characters/"
 //const URL = "https://www.breakingbadapi.com/api/characters/"
 //const URL = "https://api.jikan.moe/v4/anime/"
+//const URL = "https://developers.themoviedb.org/3/movies/"
 
 class Http{
     static instance = new Http()

@@ -10,7 +10,7 @@ const Character = (props) =>{
                 <div className = "Character__container">
                 <Link 
                     className="Character__image"
-                    to={`${character.url}`}
+                    to={`/character/${character.id}`}
                 >
                     <img 
                         className= "Character__image"
@@ -20,8 +20,11 @@ const Character = (props) =>{
                 </Link>
                     <div className="Character__Data">
                         <h2 className = "Character__name">{props.character.name}</h2>
-                        <p className = "Character__species">No: {props.character.url}</p>
-                        <p className = "Character__status">{props.character.birth_year}</p>
+                        <p className = "Character__species">Gender: {props.character.gender}</p>
+                        <p className = "Character__status">Hair: {props.character.hair_color}</p>
+                        <p className = "Character__status">Eyes: {props.character.skin_color}</p>
+                        <p>Height: {props.character.height}</p>
+                        <p>Weight: {props.character.mass}</p>
                         <small>{props.character.birth_year}</small>
                         <small>{props.character.homeworld}</small>
                     </div>
