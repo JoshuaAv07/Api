@@ -21,6 +21,7 @@ const Character = (props) =>{
                         <p className = "Character__status">Height: {props.character.height}</p>
                         <p className = "Character__status">Weight: {props.character.mass}</p>
                         <p className = "Character__status">Birth: {props.character.birth_year}</p>
+                        <small>World:</small>
                         <small>{props.character.homeworld}</small>
                     </div>
                 </div>
